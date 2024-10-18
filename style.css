@@ -1,0 +1,99 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: 'Pacifico', cursive; /* Tipo de letra femenino y elegante */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo suave */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #FFB6C1; /* Rosa claro */
+    color: #ffffff; /* Blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos de las secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Blanco */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #e0e0e0; /* Borde suave */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFDEFB; /* Rosa pálido */
+}
+
+/* Estilos del formulario */
+fieldset {
+    border: 1px solid #e0e0e0; /* Borde suave */
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-weight: bold;
+    color: #FF69B4; /* Rosa fuerte */
+}
+
+/* Estilos de etiquetas y entradas */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0; /* Borde suave */
+    border-radius: 5px;
+}
+
+/* Estilos del botón */
+button[type="submit"] {
+    background-color: #FF69B4; /* Rosa fuerte */
+    color: white; /* Blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #FF1493; /* Rosa intenso */
+}
+
+/* Estilos del resultado */
+#result {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFF0F6; /* Rosa muy suave */
+    border-left: 6px solid #FF69B4; /* Rosa fuerte */
+    border-radius: 5px;
+}
+
+/* Estilos de las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
