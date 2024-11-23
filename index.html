@@ -3,58 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciclovía</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Ciclovía Mariano Escobedo</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
     <header>
-        <h1>Ciclovía</h1>
+        <h1>Ciclovía Mariano Escobedo</h1>
         <h2>León, Guanajuato</h2>
     </header>
+   
+    <section>
+        <h3>Descripción</h3>
+        <p>Esta ciclovía está sobre el camellón, es bidireccional y cuenta con semáforos para el cruce de los ciclistas. Se conservaron los árboles existentes en el área.</p>
+    </section>
 
     <section>
-        <h3>Galería de Imágenes de la Ciclovía</h3>
-        <div class="contenedor-galeria">
-            <div class="galeria">
-                <div class="contenedor-imagen">
-                    <figure>
-                        <img src="ciclovia_aerea.jpg" alt="Vista aérea de la ciclovía">
-                    </figure>
-                </div>
-                <div class="contenedor-imagen">
-                    <figure>
-                        <img src="ciclovia_isometrica.png" alt="Vista isométrica de la ciclovía">
-                    </figure>
-                </div>
-                <div class="contenedor-imagen">
-                    <figure>
-                        <img src="ciclovia_nueva1.jpg" alt="Nueva vista de la ciclovía">
-                    </figure>
-                </div>
-                <div class="contenedor-imagen">
-                    <figure>
-                        <img src="ciclovia_nueva2.jpg" alt="Otra vista de la ciclovía">
-                    </figure>
-                </div>
-                <div class="contenedor-imagen">
-                    <figure>
-                        <img src="ciclovia_nueva3.jpg" alt="Vista adicional de la ciclovía">
-                    </figure>
-                </div>
-            </div>
-        </div>
+        <h3>Características</h3>
+        <h4>Buenas</h4>
+        <ul>
+            <li>Bidireccionalidad</li>
+            <li>Semáforos para ciclistas</li>
+            <li>Conservación de árboles</li>
+        </ul>
+        <h4>Malas</h4>
+        <ul>
+            <li>Poco espacio destinado para bicicletas</li>
+            <li>Reto de esquivar árboles</li>
+            <li>Aisladas e inseguras en algunos tramos</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Impacto Ambiental Positivo</h3>
+        <ul>
+            <li>No contaminan</li>
+            <li>No consumen combustibles</li>
+            <li>Reducen la congestión</li>
+            <li>Mejoran la seguridad</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Imágenes</h3>
+        <img src="ciclovia_aerea.jpg" alt="Vista aérea de la ciclovía">
+        <img src="ciclovia_isometrica.png" alt="Vista isométrica de la ciclovía">
+    </section>
+
+    <section>
+        <h3>Tabla Comparativa</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Estándar de Ciclovía</th>
+                    <th>Ciclovía Real</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ancho adecuado</td>
+                    <td>Tiene el ancho adecuado para circular un ciclista por cada carril.</td>
+                </tr>
+                <tr>
+                    <td>Segregación física</td>
+                    <td>Está a desnivel en el camellón de en medio.</td>
+                </tr>
+                <tr>
+                    <td>Pavimento de calidad</td>
+                    <td>El pavimento está en buen estado, sin agujeros ni grietas.</td>
+                </tr>
+                <tr>
+                    <td>Señal clara</td>
+                    <td>Tiene los señalamientos sobre el piso necesarios para indicar al ciclista.</td>
+                </tr>
+                <tr>
+                    <td>Intersecciones seguras</td>
+                    <td>Conecta con otras ciclovías y cuenta con semáforos para ciclistas.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3>Calculadora de Huella de Carbono</h3>
+        <form id="carbonForm">
+            <fieldset>
+                <legend>Detalles del Transporte</legend>
+                <br>
+                <label for="distance">Distancia diaria recorrida (km):</label>
+                <input type="number" id="distance" name="distance" required>
+                <br>
+                <label for="mode">Modo de Transporte:</label>
+                <select id="mode" name="mode" required>
+                    <option value="car">Auto</option>
+                    <option value="bus">Autobús</option>
+                    <option value="bike">Bicicleta</option>
+                </select>
+                <br>
+                <button type="submit">Calcular Huella de Carbono</button>
+            </fieldset>
+        </form>
+
+        <div id="result"></div>
     </section>
 
     <footer>
         <p>Creadores:</p>
         <ul>
             <li>Carla Leticia Moreno Muñoz</li>
-            <li>Claudio Alessandro Juárez López</li>
-            <li>Grecia Irais Borja Vázquez</li>
-            <li>Celeste Angelline Villegas Chagoya</li>
-            <li>Jessica Fernanda Saavedra Moreno</li>
+            <li>Grecia Miranda Hernández Barrientos</li>
+            <li>Alondra Vianey Martínez Gómez</li>
         </ul>
-    </footer>
-    <script src="script.js"></script>
+   </footer>
+  <script type="text/javascript" src=" script.js"></script>
 </body>
 </html>
